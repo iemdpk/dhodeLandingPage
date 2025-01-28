@@ -22,15 +22,17 @@ const Tabs = () => {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 font-red-hat-display mb-4">Turn your ideas into reality in seconds</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Get Fresh Laundry Done in No Time</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt nostrum quibusdam. Error labore ab atque libero
-              tempora est sit obcaecati
+            See how easy it is to schedule, track, and enjoy our services. Watch these quick guides!
             </p>
           </div>
 
           {/* Section content */}
           <div>
+
+          
+
             <div className="grid lg:grid-cols-3 gap-12 lg:gap-6">
               {/* Category button */}
               <div className="lg:col-span-1 lg:pr-16 flex flex-wrap justify-center lg:flex-col lg:justify-start -m-1 lg:mx-0">

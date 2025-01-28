@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import Logo from "../assets/logo.svg";
+import Logo from "../assets/dhodeL2.png";
 import CustomLink from "../partials/CustomLink";
 import Dropdown from "../utils/Dropdown";
 import LightSwitchSvg from "../assets/svg/LightSwitchSvg";
@@ -66,7 +66,7 @@ const Header = () => {
           <div className="flex-shrink-0 mr-5">
             <div className="block cursor-pointer">
               <CustomLink to="/" aria-label="Landing Page">
-                <Image src={Logo.src} alt="logo" width="32px" height="32px" />
+                <Image src={Logo.src} alt="logo" width="80px" height="80px" />
               </CustomLink>
             </div>
           </div>
@@ -74,45 +74,15 @@ const Header = () => {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:flex-grow">
             <ul className="flex flex-grow flex-wrap items-center font-medium">
-              <li>
+              {/* <li>
                 <CustomLink
                   to="/about"
                   className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   About
                 </CustomLink>
-              </li>
-              <li>
-                <CustomLink
-                  to="/blog"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                  Blog
-                </CustomLink>
-              </li>
-              <li>
-                <CustomLink
-                  to="/testimonials"
-                  className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 px-5 py-2 flex items-center transition duration-150 ease-in-out">
-                  Testimonials
-                </CustomLink>
-              </li>
-              {/* 1st level: hover */}
-              <Dropdown title="Resource">
-                {/* 2nd level */}
-                <li>
-                  <CustomLink
-                    to="/help"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight transition duration-150">
-                    Help Center
-                  </CustomLink>
-                </li>
-                <li>
-                  <CustomLink
-                    to="/404"
-                    className="text-sm text-gray-600 dark:text-gray-400 hover:text-teal-500 dark:hover:text-teal-500 flex py-2 px-4 leading-tight transition duration-150">
-                    404
-                  </CustomLink>
-                </li>
-              </Dropdown>
+              </li> */}
+             
+              
             </ul>
 
             {/* Desktop light switch */}
@@ -138,9 +108,9 @@ const Header = () => {
             {/* Desktop CTA on the right */}
             <ul className="flex justify-end flex-wrap items-center">
               <li>
-                <CustomLink to="/contact" className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
+                {/* <CustomLink className="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6">
                   Request code
-                </CustomLink>
+                </CustomLink> */}
               </li>
             </ul>
           </nav>
@@ -167,8 +137,8 @@ const Header = () => {
               </label>
             </div>
 
-            {/* Hamburger button */}
-            <button
+            {/* Hamburger button for mobile */}
+            {/* <button
               ref={trigger}
               className={`hamburger ${mobileNavOpen && "active"}`}
               aria-expanded={mobileNav}
@@ -176,7 +146,7 @@ const Header = () => {
               onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
               <HamburgerButtonSvg className="w-6 h-6 text-gray-900 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-150 ease-in-out" />
-            </button>
+            </button> */}
 
             {/* Mobile navigation */}
             <Transition

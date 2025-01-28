@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="md:col-span-10 lg:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Products</h6>
+                <h6 className="font-medium uppercase mb-2">SERVICES</h6>
                 <ul>
                   {footerData.products.map((item) => (
                     <li key={item.id} className="mb-1">
@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Products</h6>
+                <h6 className="font-medium uppercase mb-2">SUPPORT</h6>
                 <ul>
                   {footerData.resources.map((item) => (
                     <li key={item.id} className="mb-1">
@@ -74,7 +74,7 @@ const Footer = () => {
               </div>
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Products</h6>
+                <h6 className="font-medium uppercase mb-2">COMPANY</h6>
                 <ul>
                   {footerData.company.map((item) => (
                     <li key={item.id} className="mb-1">
@@ -85,26 +85,14 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
-              {/* 5th block */}
-              <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Products</h6>
-                <ul>
-                  {footerData.support.map((item) => (
-                    <li key={item.id} className="mb-1">
-                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">
-                        {item.name}
-                      </CustomLink>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              
             </div>
           </div>
 
           {/* Bottom area */}
           <div className="flex justify-center">
             {/* Copyrights note */}
-            <div className="text-gray-600 dark:text-gray-400 text-sm">&copy; 2020 Thanh Lam. All rights reserved.</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm">&© 2025 Dhode. All rights reserved.</div>
           </div>
         </div>
       </div>

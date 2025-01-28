@@ -39,16 +39,8 @@ const Carousel = () => {
   return (
     <section className="border-t border-transparent dark:border-gray-800">
       <div className="py-12 md:py-20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 font-red-hat-display mb-4">From rough design files, to powerful products</h1>
-            <p className="text-xl text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dignissimos in culpa impedit sapiente possimus quibusdam
-              atque, asperiores animi aliquam odit repellendus mollitia modi consequuntur! Quae sunt deserunt nulla deleniti.
-            </p>
-          </div>
-        </div>
+        
+        
 
         {/* Carousel */}
         <div className="carousel swiper">

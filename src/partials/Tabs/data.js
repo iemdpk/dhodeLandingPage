@@ -12,26 +12,6 @@ export const TabsList = [
     icon: GettingStartSvg,
     text: "Getting Start",
   },
-  {
-    index: "2",
-    icon: CollectionListSvg,
-    text: "Collection list",
-  },
-  {
-    index: "3",
-    icon: ElementSvg,
-    text: "Element Hierarchy",
-  },
-  {
-    index: "4",
-    icon: StylingSvg,
-    text: "Styling Basics",
-  },
-  {
-    index: "5",
-    icon: ImageFieldSvg,
-    text: "Image Field",
-  },
 ];
 
 export const TabsVideo = {

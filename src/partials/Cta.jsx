@@ -29,7 +29,7 @@ const Cta = () => {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 font-red-hat-display text-gray-100">Free until you&apos;re ready to launch</h3>
+              <h3 className="h3 font-red-hat-display text-gray-100">Fresh, Clean, and Hassle-Free Laundry!</h3>
             </div>
 
             {/* CTA form */}
@@ -37,7 +37,7 @@ const Cta = () => {
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="tel" className="form-input w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
                 <a className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0" href="#0">
-                  Request code
+                  Request Free Code
                 </a>
               </div>
             </form>

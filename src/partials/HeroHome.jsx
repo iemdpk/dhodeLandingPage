@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import CheckSvg from "../assets/svg/CheckSvg";
 import GlowSvg from "../assets/svg/GlowSvg";
 import PlayButton from "../images/play-button.svg";
-import PhoneImage from "../images/mockup-image-01.jpg";
+import PhoneImage from "../images/home.jpg";
 import PhoneMockup from "../images/iphone-mockup.png";
 import Modal from "../utils/Modal";
 
@@ -21,10 +21,10 @@ const HeroHome = () => {
             {/* Content */}
             <div className="md:col-span-7 lg:col-span-7 mb-8 md:mb-0 text-center md:text-left">
               <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-extrabold" data-aos="fade-down">
-                Your website, reimagined
+                Dhode
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Looking for a convenient laundry app? Check out Cleanly, Rinse, or Laundryheap for pick-up, wash, and delivery services near you. Save time and stay fresh with reliable options tailored to your needs!
               </p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
@@ -36,7 +36,7 @@ const HeroHome = () => {
                     className="form-input w-full mb-2 sm:mb-0 sm:mr-2"
                   />
                   <a href="#0" className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0">
-                    Request code
+                    Request a free Coupon
                   </a>
                 </div>
               </form>
@@ -46,15 +46,15 @@ const HeroHome = () => {
                 data-aos-delay="450">
                 <li className="flex items-center mb-2">
                   <CheckSvg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" />
-                  <span>Lorem ipsum is placeholder text commonly.</span>
+                  <span><strong>Convenience</strong>: Laundry apps provide hassle-free pick-up and delivery, saving you time for things that truly matter.</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <CheckSvg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" />
-                  <span>Lorem ipsum is placeholder text commonly.</span>
+                  <span><strong>Professional Care</strong>: Get your clothes cleaned, pressed, and handled by experts using top-notch techniques.</span>
                 </li>
                 <li className="flex items-center mb-2">
                   <CheckSvg className="w-3 h-3 fill-current text-teal-400 mr-2 flex-shrink-0" />
-                  <span>Lorem ipsum is placeholder text commonly.</span>
+                  <span><strong>Flexible Scheduling</strong>: Choose when and where your laundry gets picked up or dropped off, fitting seamlessly into your lifestyle.</span>
                 </li>
               </ul>
             </div>
@@ -78,7 +78,7 @@ const HeroHome = () => {
                   alt="oPhone mockup"
                 />
                 {/* Play button */}
-                <a
+                {/* <a
                   href="#0"
                   className="absolute group hover:opacity-75 transition duration-150 ease-in-out"
                   onClick={(e) => {
@@ -88,7 +88,7 @@ const HeroHome = () => {
                   }}
                   aria-controls="modal">
                   <Image src={PlayButton} width="96" height="96" alt="Play" />
-                </a>
+                </a> */}
               </div>
 
               {/* Modal */}

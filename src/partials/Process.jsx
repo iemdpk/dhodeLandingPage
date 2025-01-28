@@ -3,9 +3,9 @@
 import React from "react";
 
 import Mockup from "../images/iphone-mockup.png";
-import Image2 from "../images/mockup-image-02.jpg";
-import Image3 from "../images/mockup-image-03.jpg";
-import Image4 from "../images/mockup-image-04.jpg";
+import Image2 from "../images/home.jpg";
+import Image3 from "../images/cloth.jpeg";
+import Image4 from "../images/slots.jpeg";
 
 const Process = () => {
   return (
@@ -14,10 +14,9 @@ const Process = () => {
         <div className="py-12 md:py-20 border-t border-gray-200 dark:border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display mb-4">Build and style every element to perfection</h2>
+            <h2 className="h2 font-red-hat-display mb-4">Fresh Laundry, Three Simple Steps</h2>
             <p className="text-xl text-gray-600 dark:text-gray-400">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt nostrum quibusdam. Error labore ab atque libero
-              tempora
+              Get your laundry done effortlessly. Schedule a pickup, let us handle the dirty work, and enjoy fresh clothes delivered right to your doorstep.
             </p>
           </div>
 

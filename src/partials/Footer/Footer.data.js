@@ -4,85 +4,50 @@ export const footerData = {
   products: [
     {
       id: uniqueId(),
-      name: "Drag And Drop",
+      name: "Wash & Fold",
     },
     {
       id: uniqueId(),
-      name: "Visual Studio X",
+      name: "Dry Cleaning",
     },
     {
       id: uniqueId(),
-      name: "Easy Content",
+      name: "Ironing",
+    },
+    {
+      id: uniqueId(),
+      name: "Subscription Plans",
     },
   ],
   resources: [
     {
       id: uniqueId(),
-      name: "Industries and tools",
+      name: "Pricing",
     },
     {
       id: uniqueId(),
-      name: "Use cases",
+      name: "FAQs",
     },
     {
       id: uniqueId(),
-      name: "Blog",
-    },
-    {
-      id: uniqueId(),
-      name: "Online events",
-    },
-    {
-      id: uniqueId(),
-      name: "News",
+      name: "Contact Us",
     },
   ],
   company: [
     {
       id: uniqueId(),
-      name: "Diversity & inclusion",
+      name: "About Us",
     },
     {
       id: uniqueId(),
-      name: "About us",
+      name: "Testimonials",
     },
     {
       id: uniqueId(),
-      name: "Press",
+      name: "Terms & Privacy",
     },
-    {
-      id: uniqueId(),
-      name: "Customer stories",
-    },
-    {
-      id: uniqueId(),
-      name: "Online community",
-    },
-    {
-      id: uniqueId(),
-      name: "Term",
-    },
-    {
-      id: uniqueId(),
-      name: "Privacy Policy",
-    },
+  
+  
   ],
-  support: [
-    {
-      id: uniqueId(),
-      name: "Documentation",
-    },
-    {
-      id: uniqueId(),
-      name: "Tutorial and guides",
-    },
-    {
-      id: uniqueId(),
-      name: "Webinar",
-    },
-    {
-      id: uniqueId(),
-      name: "Open-source",
-    },
-  ],
+  
 };

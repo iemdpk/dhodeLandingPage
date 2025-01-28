@@ -8,26 +8,26 @@ import Icon4 from "../assets/svg/Feature/Icon4";
 const features = [
   {
     icon: Icon1,
-    title: "Simpler Sharing",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "🧺 Pickup & Delivery",
+    content: "We pick up your dirty laundry and deliver it fresh & clean.",
     className: "bg-gradient-to-tr from-teal-500 to-teal-400 dark:to-teal-500",
   },
   {
     icon: Icon2,
-    title: "Simpler Sharing",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "🧼 Deep Cleaning",
+    content: "Tough on stains, gentle on fabrics—your clothes will thank you!",
     className: "bg-gradient-to-tr from-purple-500 to-purple-400 dark:to-purple-500",
   },
   {
     icon: Icon3,
-    title: "Simpler Sharing",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "🚀 Super Fast Service",
+    content: "Get your laundry done quickly without any hassle.",
     className: "bg-gradient-to-tr from-indigo-500 to-indigo-400 dark:to-indigo-500",
   },
   {
     icon: Icon4,
-    title: "Simpler Sharing",
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    title: "🌿 Eco-Friendly Washing",
+    content: "Safe for your clothes, safe for the planet.",
     className: "bg-gradient-to-tr from-pink-500 to-pink-400 dark:to-pink-500",
   },
 ];
@@ -39,7 +39,7 @@ const FeaturedBlocks = () => {
         <div className="py-12 md:py:20 border-t border-gray-200 dark:border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display">Put clarity at the center of your website</h2>
+            <h2 className="h2 font-red-hat-display">Let Us Handle Your Laundry, So You Don’t Have To!</h2>
           </div>
 
           {/* Items */}
@@ -54,7 +54,7 @@ const FeaturedBlocks = () => {
                 data-aos="fade-down"
                 data-aos-anchor="[data-aos-id-featbl]"
                 data-aos-delay={`${index * 100}`}>
-                <feature.icon />
+                {/* <feature.icon /> */}
                 <div className="font-red-hat-display text-xl font-extrabold tracking-tighter mb-1">{feature.title}</div>
                 <div className="flex-grow opacity-80 mb-4">{feature.content}</div>
                 <svg
