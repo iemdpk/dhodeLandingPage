@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+    unoptimized: true,
+  },
   webpack(config, options) {
     config.module.rules.push({
       test: /\.(mp3)$/,

@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+
 import Logo from "../assets/dhodeL2.png";
 import CustomLink from "../partials/CustomLink";
 import Dropdown from "../utils/Dropdown";
@@ -66,7 +66,7 @@ const Header = () => {
           <div className="flex-shrink-0 mr-5">
             <div className="block cursor-pointer">
               <CustomLink to="/" aria-label="Landing Page">
-                <Image src={Logo.src} alt="logo" width="80px" height="80px" />
+                <img src={Logo.src} alt="logo" width="80" height="80" />
               </CustomLink>
             </div>
           </div>
@@ -164,7 +164,7 @@ const Header = () => {
                 ref={mobileNav}
                 className="fixed top-0 h-screen z-20 left-0 w-full max-w-xs overflow-scroll bg-white dark:bg-gray-900 shadow-lg no-scrollbar">
                 <div className="py-6 pr-4 pl-4">
-                  <Image src={Logo.src} alt="logo" width="32px" height="32px" />
+                  <img src={Logo.src} alt="logo" width="32" height="32" />
                   <ul>
                     <li>
                       <CustomLink

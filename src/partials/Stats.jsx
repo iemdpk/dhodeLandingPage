@@ -33,7 +33,7 @@ const Stats = () => {
               data-aos-anchor="[data-aos-id-stats]"
               data-aos-delay="200">
               <div className="font-red-hat-display text-2xl font-extrabold tracking-tighter mb-1">7.4% Faster Service</div>
-              <div className="text-gray-600 dark:text-gray-400">Because speed matters when you're on the go.</div>
+              <div className="text-gray-600 dark:text-gray-400">Because speed matters when you re on the go.</div>
             </div>
             {/* 4st item */}
             <div

@@ -66,12 +66,12 @@ const HeroHome = () => {
                 <GlowSvg className="absolute mr-12 mt-32 pointer-events-none -z-1 dark:opacity-40" />
                 {/* Image inside mockup */}
                 <div className="absolute">
-                  <Image src={PhoneImage} width={290} height={630} alt="Feature Illustration" />
-                </div>
+                  <img src={PhoneImage.src} className="w-[280px] md:w-[290px]" height={624} alt="Feature Illustration" />
+               </div>
                 {/* Iphone mockup */}
-                <Image
+                <img
                   className="relative max-w-full mx-auto md:mr-0 md:max-w-none h-auto pointer-events-none"
-                  src={PhoneMockup}
+                  src={PhoneMockup.src}
                   width="344"
                   height="674"
                   aria-hidden="true"
