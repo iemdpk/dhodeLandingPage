@@ -28,15 +28,15 @@ const HeroHome = () => {
               </p>
               {/* CTA form */}
               <form className="mt-8" data-aos="fade-down" data-aos-delay="300">
-                <div className="flex flex-col sm:flex-row justify-center max-w-sm mx-auto sm:max-w-md md:mx-0">
-                  <input
+                <div className="flex flex-col sm:flex-row  max-w-sm mx-auto sm:max-w-md md:mx-0">
+                  {/* <input
                     type="tel"
                     placeholder="Phone number"
                     aria-label="Phone number"
                     className="form-input w-full mb-2 sm:mb-0 sm:mr-2"
-                  />
-                  <a href="#0" className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0">
-                    Request a free Coupon
+                  /> */}
+                  <a href="https://dhode.s3.ap-south-1.amazonaws.com/app-debug.apk" className="btn text-white bg-teal-500 hover:bg-teal-400 flex-shrink-0">
+                    Download Application
                   </a>
                 </div>
               </form>

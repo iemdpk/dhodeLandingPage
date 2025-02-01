@@ -66,7 +66,7 @@ const Header = () => {
           <div className="flex-shrink-0 mr-5">
             <div className="block cursor-pointer">
               <CustomLink to="/" aria-label="Landing Page">
-                <img src={Logo.src} alt="logo" width="80" height="80" />
+                <img src={Logo.src} alt="logo" className="w-[80px] md:w-[200px]   md:mt-[100px]" />
               </CustomLink>
             </div>
           </div>
@@ -136,6 +136,8 @@ const Header = () => {
                 <span className="sr-only">Switch to light / dark version</span>
               </label>
             </div>
+            
+            
 
             {/* Hamburger button for mobile */}
             {/* <button
