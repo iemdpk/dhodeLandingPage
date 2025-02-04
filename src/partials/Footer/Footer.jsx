@@ -3,7 +3,7 @@ import React from "react";
 import mapKeys from "lodash/mapKeys";
 
 // @ts-ignore
-import Logo from "../../assets/logo.svg";
+import Logo from "../../images/dhodeL2.png";
 import CustomLink from "../CustomLink";
 import { footerData } from "./Footer.data";
 const Footer = () => {
@@ -40,7 +40,7 @@ const Footer = () => {
             {/* 1st block */}
             <div className="md:col-span-2 lg:col-span-3">
               <CustomLink className="inline-block" to="/" aria-label="Landing Page">
-                <Image src={Logo.src} alt="logo" width="32px" height="32px" />
+                <img src={Logo.src} alt="logo" className="w-[100px] md:w-[130px]"  />
               </CustomLink>
             </div>
 
@@ -51,8 +51,8 @@ const Footer = () => {
                 <h6 className="font-medium uppercase mb-2">SERVICES</h6>
                 <ul>
                   {footerData.products.map((item) => (
-                    <li key={item.id} className="mb-1">
-                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">
+                    <li key={item.id} className="mb-1" >
+                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to={item.href}>
                         {item.name}
                       </CustomLink>
                     </li>
@@ -65,7 +65,7 @@ const Footer = () => {
                 <ul>
                   {footerData.resources.map((item) => (
                     <li key={item.id} className="mb-1">
-                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">
+                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to={item.href}>
                         {item.name}
                       </CustomLink>
                     </li>
@@ -78,7 +78,7 @@ const Footer = () => {
                 <ul>
                   {footerData.company.map((item) => (
                     <li key={item.id} className="mb-1">
-                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to="#">
+                      <CustomLink className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" to={item.href}>
                         {item.name}
                       </CustomLink>
                     </li>
@@ -92,7 +92,7 @@ const Footer = () => {
           {/* Bottom area */}
           <div className="flex justify-center">
             {/* Copyrights note */}
-            <div className="text-gray-600 dark:text-gray-400 text-sm">&© 2025 Dhode. All rights reserved.</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm">© 2025 Dhode. All rights reserved.</div>
           </div>
         </div>
       </div>
