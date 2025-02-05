@@ -8,10 +8,7 @@ import Cta from '../src/partials/Cta';
 import Head from 'next/head';
 // Page content
 
-
 export default function Contact() {
-
-
 
   return (
 
@@ -21,7 +18,7 @@ export default function Contact() {
   <title>Contact Dhode - Get in Touch with Us</title>
   <meta 
     name="description" 
-    content="Need assistance with Dhode’s laundry services? Contact us via phone, email, or visit our office. Our team is ready to help you with any inquiries or support requests." 
+    content="Need assistance with Dhode&apos;s laundry services? Contact us via phone, email, or visit our office. Our team is ready to help you with any inquiries or support requests." 
   />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta 
@@ -68,7 +65,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-            Have a question or need support? Reach out to us via email, phone, or visit us at our office. We're here to help you with 
+            Have a question or need support? Reach out to us via email, phone, or visit us at our office. We&apos;re here to help you with 
             all your laundry needs!
           </p>
 
@@ -174,7 +171,7 @@ export default function Contact() {
           <div className="mt-12 text-center" data-aos="fade-down" data-aos-delay="700">
             <h2 className="h2 text-3xl font-bold mb-6">Need More Help?</h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              Our customer support team is available to assist you. Call us or send an email, and we'll get back to you as soon as possible.
+              Our customer support team is available to assist you. Call us or send an email, and we&apos;ll get back to you as soon as possible.
             </p>
             <a className="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition duration-300" 
                href="mailto:info@dhode.com">

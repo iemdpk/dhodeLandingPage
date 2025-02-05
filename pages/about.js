@@ -38,7 +38,7 @@ export default function About() {
       <meta name="twitter:title" content="About Dhode - Our Story & Commitment" />
       <meta 
         name="twitter:description" 
-        content="Discover Dhode’s journey, values, and commitment to providing the best laundry services. We focus on quality, eco-friendliness, and customer satisfaction." 
+        content="Discover Dhode&apos;s journey, values, and commitment to providing the best laundry services. We focus on quality, eco-friendliness, and customer satisfaction." 
       />
       <meta name="twitter:image" content="/images/dhode-about-twitter.jpg" />
       <link rel="canonical" href="https://www.dhode.com/about" />
@@ -59,14 +59,14 @@ export default function About() {
           Dhode: Revolutionizing Laundry Services
         </h1>
         <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-          Tired of spending hours on laundry? Dhode is here to simplify your life! Our app offers professional laundry services with pick-up, wash, and delivery options tailored to your schedule. Whether you're at home, work, or on the go, Dhode ensures your clothes are cleaned, pressed, and delivered with care. Save time, stay fresh, and let us handle the laundry while you focus on what truly matters.
+          Tired of spending hours on laundry? Dhode is here to simplify your life! Our app offers professional laundry services with pick-up, wash, and delivery options tailored to your schedule. Whether you re at home, work, or on the go, Dhode ensures your clothes are cleaned, pressed, and delivered with care. Save time, stay fresh, and let us handle the laundry while you focus on what truly matters.
         </p>
 
         {/* Expanded Introduction */}
         <div className="mt-8" data-aos="fade-down" data-aos-delay="200">
           <h2 className="h2 text-3xl font-bold mb-4">Why Choose Dhode?</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            In today's fast-paced world, time is a luxury. Dhode understands the value of your time and aims to provide a seamless laundry experience. Our mission is to make laundry day a thing of the past by offering a service that is not only convenient but also reliable and affordable. With Dhode, you can say goodbye to the endless cycles of washing, drying, and folding, and hello to more free time and fresh, clean clothes.
+            In today s fast-paced world, time is a luxury. Dhode understands the value of your time and aims to provide a seamless laundry experience. Our mission is to make laundry day a thing of the past by offering a service that is not only convenient but also reliable and affordable. With Dhode, you can say goodbye to the endless cycles of washing, drying, and folding, and hello to more free time and fresh, clean clothes.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ export default function About() {
               <span><strong>Expert Care</strong>: Your clothes are treated with the utmost care by professionals using advanced cleaning techniques and eco-friendly products.</span>
             </li>
             <li className="flex items-center mb-4">
-              <span><strong>Flexible Scheduling</strong>: Whether it's a last-minute request or a recurring service, Dhode adapts to your busy lifestyle, ensuring your laundry is always on time.</span>
+              <span><strong>Flexible Scheduling</strong>: Whether it s a last-minute request or a recurring service, Dhode adapts to your busy lifestyle, ensuring your laundry is always on time.</span>
             </li>
             <li className="flex items-center mb-4">
               <span><strong>Affordable Pricing</strong>: Enjoy premium laundry services without breaking the bank. Dhode offers competitive rates tailored to your needs.</span>
@@ -117,7 +117,7 @@ export default function About() {
         <div className="mt-12" data-aos="fade-down" data-aos-delay="500">
           <h2 className="h2 text-3xl font-bold mb-6">How Dhode Works</h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-            Using Dhode is simple and straightforward. Here's a step-by-step guide to getting started:
+            Using Dhode is simple and straightforward. Here s a step-by-step guide to getting started:
           </p>
           <ol className="list-decimal list-inside text-gray-600 dark:text-gray-400">
             <li className="mb-4"><strong>Download the App</strong>: Start by downloading the Dhode app from the App Store or Google Play.</li>
@@ -134,15 +134,15 @@ export default function About() {
           <h2 className="h2 text-3xl font-bold mb-6">What Our Customers Are Saying</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <p className="text-gray-600 dark:text-gray-400 italic">"Dhode has been a game-changer for me. I no longer have to worry about laundry, and the service is always reliable and affordable."</p>
+              <p className="text-gray-600 dark:text-gray-400 italic">Dhode has been a game-changer for me. I no longer have to worry about laundry, and the service is always reliable and affordable.</p>
               <p className="mt-4 font-bold">- Sarah L.</p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <p className="text-gray-600 dark:text-gray-400 italic">"I love how easy it is to schedule pickups and deliveries. The app is user-friendly, and the customer support is excellent."</p>
+              <p className="text-gray-600 dark:text-gray-400 italic">I love how easy it is to schedule pickups and deliveries. The app is user-friendly, and the customer support is excellent.</p>
               <p className="mt-4 font-bold">- John D.</p>
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-              <p className="text-gray-600 dark:text-gray-400 italic">"The quality of service is outstanding. My clothes always come back looking and smelling fresh. Highly recommend Dhode!"</p>
+              <p className="text-gray-600 dark:text-gray-400 italic">The quality of service is outstanding. My clothes always come back looking and smelling fresh. Highly recommend Dhode!</p>
               <p className="mt-4 font-bold">- Emily R.</p>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function About() {
             </div>
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
               <h3 className="h3 text-xl font-bold mb-2">How do I track my order?</h3>
-              <p className="text-gray-600 dark:text-gray-400">You can track your order in real-time using the Dhode app. We'll send you updates at every stage of the process, from pickup to delivery.</p>
+              <p className="text-gray-600 dark:text-gray-400">You can track your order in real-time using the Dhode app. We ll send you updates at every stage of the process, from pickup to delivery.</p>
             </div>
           </div>
         </div>

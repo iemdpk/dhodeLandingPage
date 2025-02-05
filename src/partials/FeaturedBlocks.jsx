@@ -39,7 +39,7 @@ const FeaturedBlocks = () => {
         <div className="py-12 md:py:20 border-t border-gray-200 dark:border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 font-red-hat-display">Let Us Handle Your Laundry, So You Don’t Have To!</h2>
+            <h2 className="h2 font-red-hat-display">Let Us Handle Your Laundry, So You Don&apos;t Have To!</h2>
           </div>
 
           {/* Items */}

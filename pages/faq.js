@@ -38,7 +38,7 @@ export default function FAQ() {
   <meta name="twitter:title" content="FAQ Dhode - Your Questions Answered" />
   <meta 
     name="twitter:description" 
-    content="Find answers to your questions about Dhode’s laundry services. Get details on our pricing, eco-friendly processes, and how we ensure top-quality results." 
+    content="Find answers to your questions about Dhode&apos;s laundry services. Get details on our pricing, eco-friendly processes, and how we ensure top-quality results." 
   />
   <meta name="twitter:image" content="/images/dhode-faq-twitter.jpg" />
   <link rel="canonical" href="https://www.dhode.com/faq" />
@@ -59,7 +59,7 @@ export default function FAQ() {
             Dhode - Frequently Asked Questions (FAQ)
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-            Have questions about Dhode? Here’s everything you need to know about our convenient and professional laundry 
+            Have questions about Dhode? Here&apos;s everything you need to know about our convenient and professional laundry 
             services, including how it works, pricing, scheduling, and more.
           </p>
 
@@ -169,7 +169,7 @@ export default function FAQ() {
               <li className="mb-4">
                 <h3 className="text-xl font-semibold mb-2">How do I reset my password?</h3>
                 <p>
-                  Click "Forgot Password" on the login screen and follow the instructions to reset it.
+                  Click Forgot Password on the login screen and follow the instructions to reset it.
                 </p>
               </li>
             </ul>

@@ -33,7 +33,7 @@ export default function dry() {
   <meta property="og:title" content="Premium Dry Cleaning Service - Dhode" />
   <meta 
     property="og:description" 
-    content="Trust Dhode’s dry cleaning service for expert garment care. We remove tough stains and restore your clothes to their best condition." 
+    content="Trust Dhode&apos;s dry cleaning service for expert garment care. We remove tough stains and restore your clothes to their best condition." 
   />
   <meta property="og:image" content="/images/dhode-drycleaning-og.jpg" />
   <meta property="og:url" content="https://www.dhode.com/drycleaning" />
@@ -44,7 +44,7 @@ export default function dry() {
   <meta name="twitter:title" content="Premium Dry Cleaning Service - Dhode" />
   <meta 
     name="twitter:description" 
-    content="Revive your clothes with Dhode’s professional dry cleaning. We clean, press, and restore your garments with expert care." 
+    content="Revive your clothes with Dhode&apos;s professional dry cleaning. We clean, press, and restore your garments with expert care." 
   />
   <meta name="twitter:image" content="/images/dhode-drycleaning-twitter.jpg" />
 
@@ -65,7 +65,7 @@ export default function dry() {
             Premium Dry Cleaning Service
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-            Keep your clothes looking brand new with Dhode’s expert dry cleaning. We use advanced techniques to clean delicate fabrics, formal wear, and special garments, ensuring they remain fresh, spotless, and well-maintained.
+            Keep your clothes looking brand new with Dhode&apos;s expert dry cleaning. We use advanced techniques to clean delicate fabrics, formal wear, and special garments, ensuring they remain fresh, spotless, and well-maintained.
           </p>
 
           {/* Service Features */}
@@ -129,7 +129,7 @@ export default function dry() {
           <div className="mt-12" data-aos="fade-down" data-aos-delay="600">
             <h2 className="h2 text-3xl font-bold mb-6">🗣️ What Our Customers Say</h2>
             <blockquote className="text-lg italic text-gray-600 dark:text-gray-400">
-              "Dhode saved my favorite dress! Their dry cleaning is top-notch, and the quality is excellent!" – <strong>Neha Gupta</strong>
+              Dhode saved my favorite dress! Their dry cleaning is top-notch, and the quality is excellent! – <strong>Neha Gupta</strong>
             </blockquote>
           </div>
 

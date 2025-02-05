@@ -20,7 +20,7 @@ export default function washFold() {
   <title>Wash & Fold Laundry Service - Dhode</title>
   <meta 
     name="description" 
-    content="Experience hassle-free laundry with Dhode’s Wash & Fold service. We pick up, wash, dry, fold, and deliver your clothes fresh and clean, saving you time and effort." 
+    content="Experience hassle-free laundry with Dhode&apos;s Wash & Fold service. We pick up, wash, dry, fold, and deliver your clothes fresh and clean, saving you time and effort." 
   />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta 
@@ -33,7 +33,7 @@ export default function washFold() {
   <meta property="og:title" content="Wash & Fold Laundry Service - Dhode" />
   <meta 
     property="og:description" 
-    content="Get professional laundry care with Dhode’s Wash & Fold service. We clean, dry, and fold your clothes with care and deliver them fresh to your doorstep." 
+    content="Get professional laundry care with Dhode&apos;s Wash & Fold service. We clean, dry, and fold your clothes with care and deliver them fresh to your doorstep." 
   />
   <meta property="og:image" content="/images/dhode-wash-fold-og.jpg" />
   <meta property="og:url" content="https://www.dhode.com/wash-fold" />
@@ -44,7 +44,7 @@ export default function washFold() {
   <meta name="twitter:title" content="Wash & Fold Laundry Service - Dhode" />
   <meta 
     name="twitter:description" 
-    content="Say goodbye to laundry day stress! Dhode’s Wash & Fold service ensures clean, neatly folded clothes delivered right to you." 
+    content="Say goodbye to laundry day stress! Dhode&apos;s Wash & Fold service ensures clean, neatly folded clothes delivered right to you." 
   />
   <meta name="twitter:image" content="/images/dhode-wash-fold-twitter.jpg" />
 
@@ -65,7 +65,7 @@ export default function washFold() {
             Wash & Fold Laundry Service
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-            Say goodbye to laundry stress! Dhode’s Wash & Fold service ensures your clothes are professionally cleaned, neatly folded, and delivered fresh to your doorstep. Save time and enjoy crisp, clean clothes without the hassle.
+            Say goodbye to laundry stress! Dhode&apos;s Wash & Fold service ensures your clothes are professionally cleaned, neatly folded, and delivered fresh to your doorstep. Save time and enjoy crisp, clean clothes without the hassle.
           </p>
 
           {/* Service Features */}
@@ -93,7 +93,7 @@ export default function washFold() {
               <li className="mb-4">
                 <h3 className="text-xl font-semibold mb-2">🚚 Convenient Pickup & Delivery</h3>
                 <p>
-                  Choose your preferred time and location, and we’ll handle the rest. Fresh laundry delivered to your doorstep!
+                  Choose your preferred time and location, and we&apos;ll handle the rest. Fresh laundry delivered to your doorstep!
                 </p>
               </li>
               <li className="mb-4">
@@ -128,7 +128,7 @@ export default function washFold() {
           <div className="mt-12" data-aos="fade-down" data-aos-delay="600">
             <h2 className="h2 text-3xl font-bold mb-6">🗣️ What Our Customers Say</h2>
             <blockquote className="text-lg italic text-gray-600 dark:text-gray-400">
-              "Dhode’s wash & fold service is a lifesaver! My clothes come back fresh and neatly folded every time. Highly recommend!" – <strong>Rohit Sharma</strong>
+              Dhode&apos;s wash & fold service is a lifesaver! My clothes come back fresh and neatly folded every time. Highly recommend! – <strong>Rohit Sharma</strong>
             </blockquote>
           </div>
 

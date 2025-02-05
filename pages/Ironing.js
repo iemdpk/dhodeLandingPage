@@ -33,7 +33,7 @@ export default function Ironing() {
   <meta property="og:title" content="Premium Ironing Service - Dhode" />
   <meta 
     property="og:description" 
-    content="Trust Dhode’s ironing service to keep your clothes sharp and wrinkle-free. We provide expert pressing for formal wear, casual clothes, and more." 
+    content="Trust Dhode&apos;s ironing service to keep your clothes sharp and wrinkle-free. We provide expert pressing for formal wear, casual clothes, and more." 
   />
   <meta property="og:image" content="/images/dhode-ironing-og.jpg" />
   <meta property="og:url" content="https://www.dhode.com/ironing" />
@@ -44,7 +44,7 @@ export default function Ironing() {
   <meta name="twitter:title" content="Premium Ironing Service - Dhode" />
   <meta 
     name="twitter:description" 
-    content="Revive your clothes with Dhode’s professional ironing service. We expertly press shirts, trousers, and more, leaving them wrinkle-free and crisp." 
+    content="Revive your clothes with Dhode&apos;s professional ironing service. We expertly press shirts, trousers, and more, leaving them wrinkle-free and crisp." 
   />
   <meta name="twitter:image" content="/images/dhode-ironing-twitter.jpg" />
 
@@ -65,7 +65,7 @@ export default function Ironing() {
             Premium Ironing Service
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">
-            Keep your clothes looking sharp and wrinkle-free with Dhode’s expert ironing service. We use advanced techniques to press all types of garments, from formal wear to casual clothes, ensuring they are fresh, neat, and ready to wear.
+            Keep your clothes looking sharp and wrinkle-free with Dhode&apos;s expert ironing service. We use advanced techniques to press all types of garments, from formal wear to casual clothes, ensuring they are fresh, neat, and ready to wear.
           </p>
 
           {/* Service Features */}
@@ -123,7 +123,7 @@ export default function Ironing() {
           <div className="mt-12" data-aos="fade-down" data-aos-delay="600">
             <h2 className="h2 text-3xl font-bold mb-6">🗣️ What Our Customers Say</h2>
             <blockquote className="text-lg italic text-gray-600 dark:text-gray-400">
-              "Dhode’s ironing service is a game-changer! My shirts are always perfectly pressed, and they come back looking brand new!" – <strong>Amit Verma</strong>
+              Dhode&apos;s ironing service is a game-changer! My shirts are always perfectly pressed, and they come back looking brand new! – <strong>Amit Verma</strong>
             </blockquote>
           </div>
 
